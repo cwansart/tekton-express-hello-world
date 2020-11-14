@@ -1,0 +1,10 @@
+apiVersion: tekton.dev/v1alpha1
+kind: PipelineResource
+metadata:
+  name: express-hello-world
+spec:
+  type: image
+  params:
+    - name: url
+      # Change the following value to match your GitHub account.
+      value: cwansart/express-hello-world:tekton
