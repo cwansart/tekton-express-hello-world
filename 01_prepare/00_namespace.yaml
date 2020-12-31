@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: cwa-tekton
-
-# Now you can set the default session for you by:
-# kubectl config set-context --current --namespace=cwa-tekton
